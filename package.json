@@ -4,9 +4,9 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
-  },
+  "start": "parcel src/index.html",
+  "build": "parcel build src/index.html --public-url ./"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
