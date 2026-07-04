@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ 8 — LocalStorage & Фильтрация</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container" id="bookmarkApp">
+      <h1>Закладки</h1>
+      <input type="text" id="bookmarkInput" placeholder="URL">
+      <button id="addBookmarkBtn">Додати</button>
+      <ul id="bookmarkList"></ul>
+    </div>
+
+    <div class="container" id="formApp">
+      <h1>Форма</h1>
+      <input type="text" id="username" placeholder="Логін">
+      <input type="password" id="password" placeholder="Пароль">
+      <button id="saveBtn">Зберегти</button>
+    </div>
+
+    <div class="container">
+      <h1>Управление списком продуктов</h1>
+      
+      <input type="text" id="searchInput" placeholder="Поиск продуктов по названию..." />
+
+      <form id="product-form">
+          <input type="text" id="name" placeholder="Название" required />
+          <input type="number" id="price" placeholder="Цена" required />
+          <input type="text" id="description" placeholder="Описание" required />
+          <button type="submit">Добавить</button>
+      </form>
+
+      <ul id="product-list"></ul>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
